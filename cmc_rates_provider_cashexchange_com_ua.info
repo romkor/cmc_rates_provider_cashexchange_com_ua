@@ -1,0 +1,9 @@
+name = "Commerce Multicurrency rates provider cashexchange.com.ua"
+package = "Commerce (contrib)"
+description = "Commerce multicurrency rates by cashexchange.com.ua"
+
+core = "7.x"
+dependencies[]="commerce_multicurrency"
+
+files[]=cmc_rates_provider_cashexchange_com_ua.module
+files[]=cashexchange_com_ua.inc

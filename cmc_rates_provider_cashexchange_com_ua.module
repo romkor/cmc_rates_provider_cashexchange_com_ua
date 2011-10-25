@@ -1,0 +1,13 @@
+<?php
+
+function cmc_rates_provider_cashexchange_com_ua_commerce_multicurrency_exchange_rate_sync_provider_info() {
+  return array (
+    'cashexchange_com_ua' => array(
+      'title' => t('cashexchange.com.ua'),
+      'callback' => 'sync_provider_cashexchange_com_ua',
+      'file' => drupal_get_path('module', 'cmc_rates_provider_cashexchange_com_ua') . '/cashexchange_com_ua.inc',  
+    ),
+  );
+}
+
+
